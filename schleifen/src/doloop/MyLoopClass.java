@@ -6,11 +6,10 @@ public class MyLoopClass {
 	public static void main(String[] args) {
 		new MyLoopClass().loopBasic();
 	}
-
 	
 	/*
-	 * Die Do-Whileschleife nennt sich auch nicht abweisende Schleife, da die Bedingung erst nach dem ersten
-	 * Schleifendurchlauf geprüft wird.
+	 * Die Do-Whileschleife nennt sich auch nicht abweisende Schleife, da die 
+	 * Bedingung erst nach dem ersten Schleifendurchlauf geprüft wird.
 	 * 
 	 * Somit wird die Schleife einmal oder mehrmals durchlaufen.
 	 * 

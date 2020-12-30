@@ -7,13 +7,14 @@ public class MyLoopClass {
 		new MyLoopClass().loopBasic();
 	}
 	
-	
 	/*
-	 * Die Whileschleife nennt sich auch abweisende Schleife, da die Bedingung zuerst geprüft wird,
-	 * und abhängig von dessen Ergebnis entschieden wird, ob in Schleife eingetreten wird oder nicht.
+	 * Die Whileschleife nennt sich auch abweisende Schleife, da die Bedingung zuerst
+	 * geprüft wird, und abhängig von dessen Ergebnis entschieden wird, ob in 
+	 * Schleife eingetreten wird oder nicht.
 	 * 
 	 * Somit wird die Schleife keinmal, einmal oder mehrmals durchlaufen.
-	 * Die Zählvariable wird zu Beginn ausserhalb der Schleife definiert und initialisiert.
+	 * Die Zählvariable wird zu Beginn ausserhalb der Schleife definiert und 
+	 * initialisiert.
 	 * 
 	 * Sektion: Bedingung, ob eine (weitere) Iteration erfolgen soll.
 	 */
@@ -26,6 +27,5 @@ public class MyLoopClass {
 		}
 		
 	}
-
 
 }
