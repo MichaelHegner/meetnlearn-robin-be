@@ -14,6 +14,13 @@ public class MyLoopClass {
 	}
 	
 	
+	/**
+	 * Iterate through an array and take each element.
+	 * 
+	 * for ( elementInArray : array) {
+	 *   // do something 'elementInArray'
+	 * }
+	 */
 	public void foreachWithArray() {
 		
 		int[] numberArray = {1, 2, 3};
@@ -25,6 +32,14 @@ public class MyLoopClass {
 		
 	}
 	
+	
+	/**
+	 * Iterate through an array list and take each element.
+	 * 
+	 * for ( elementInArrayList : arrayList) {
+	 *   // do something with 'elementInArrayList'
+	 * }
+	 */
 	public void foreachWithArrayList() {
 		
 		List<Integer> numberList = new ArrayList<>();
@@ -39,21 +54,38 @@ public class MyLoopClass {
 		
 	}
 	
-	private int multiplyWithTwo(Integer element) {
-		int result = element * 2;
-		return result;
-	}
-
-
+	
+	/**
+	 * Iterate through an hash map key set and take each key.
+	 * With the key we can take then each element by key
+	 * 
+	 * for ( key : hashMap.keySet) {
+	 *   // do something with 'hashMap.get(key)'
+	 * }
+	 */
 	public void foreachWithHashmap() {
 		
-		Map<Integer, String> map = new HashMap<Integer, String>();
-		map.put(1, "Hello");
+		Map<String, Integer> map = new HashMap<>();
+		map.put("Key-1", 1);
+		map.put("Key-2", 2);
+		map.put("Key-3", 3);
 		
-		for (Integer key : map.keySet()) {
-			System.out.println(map.get(key));
+		for (String key : map.keySet()) {
+			int number = multiplyWithTwo(map.get(key));
+			System.out.println(number);
 		}
 		
 	}
 	
+
+	/**
+	 * Helper method which takes an integer element and returns the double value.
+	 * 
+	 * @param number the number to multiply
+	 * @return the multiplied result
+	 */
+	private int multiplyWithTwo(Integer number) {
+		int result = number * 2;
+		return result;
+	}
 }
