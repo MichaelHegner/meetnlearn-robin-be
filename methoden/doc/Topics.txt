@@ -1,0 +1,10 @@
+
+
+- Statische Methoden
+- Methoden auf Instanzen
+- Scopes
+- Primitive Datentypen!!!
+- Referenz-Objekte!!!
+- Statischer Context
+- Instanzvariable
+		

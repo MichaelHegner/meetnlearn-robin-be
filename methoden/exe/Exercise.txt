@@ -1,0 +1,20 @@
+
+Gestalte eine Klasse TaschenRechner, der folgende Funktionen bereitstellt:
+- Addition von zwei Zahlen
+- Addition von beliebigen Zahlen
+- Subtraktion von zwei Zahlen
+- Subtraktion von beliebigen Zahlen (in Form eines Arrays, erste element minus zweite element minus dritte element usw.)
+
+Die jeweilige Methode soll es mit zwei Zahlen Parameter geben, oder mit einem Array
+
+
+
+Von dieser Klasse soll es in unterschiedlichen Versionen geben
+- Version 1: Diese Klasse stellt die Methoden statisch bereit
+- Version 2: Diese Klasse stellt die Methoden im Instanzkontext bereit
+- Version 3: Die Werte sollen der Klasse bei der Instanziierung mitgegeben werden. 
+             Addition und Subtraktion werden aufgrund dieser Werte durchgeführt, ohne dass diese Methoden mit Parametern aufgerufen werden
+             
+             z.B. 
+             new TaschenRechner(1, 2) 
+             add(), subract() 
